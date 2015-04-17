@@ -14,13 +14,19 @@
 		5C0AC37F1AAF6AF300B41B5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0AC37E1AAF6AF300B41B5C /* main.m */; };
 		5C0AC3831AAF6AF300B41B5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0AC3821AAF6AF300B41B5C /* AppDelegate.m */; };
 		5C0AC3861AAF6AF300B41B5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C0AC3841AAF6AF300B41B5C /* Main.storyboard */; };
-		5C0AC3891AAF6AF300B41B5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0AC3881AAF6AF300B41B5C /* ViewController.m */; };
+		5C0AC3891AAF6AF300B41B5C /* SearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0AC3881AAF6AF300B41B5C /* SearchResultsViewController.m */; };
 		5C0AC38B1AAF6AF300B41B5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C0AC38A1AAF6AF300B41B5C /* Images.xcassets */; };
 		5C0AC3921AAF6AF400B41B5C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C0AC3911AAF6AF400B41B5C /* XCTest.framework */; };
 		5C0AC3931AAF6AF400B41B5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C0AC3721AAF6AF300B41B5C /* Foundation.framework */; };
 		5C0AC3941AAF6AF400B41B5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C0AC3761AAF6AF300B41B5C /* UIKit.framework */; };
 		5C0AC39C1AAF6AF400B41B5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C0AC39A1AAF6AF400B41B5C /* InfoPlist.strings */; };
 		5C0AC39E1AAF6AF400B41B5C /* PriceForMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0AC39D1AAF6AF400B41B5C /* PriceForMeTests.m */; };
+		5C0AC3AB1AAF7AF900B41B5C /* ListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0AC3AA1AAF7AF900B41B5C /* ListItem.m */; };
+		5C0AC3AE1AAF7B6C00B41B5C /* ResultDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0AC3AD1AAF7B6C00B41B5C /* ResultDataController.m */; };
+		5C3069C61AE099F200320249 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3069C51AE099F200320249 /* DetailViewController.m */; };
+		5C89206F1AE0D084009E5198 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C89206E1AE0D084009E5198 /* GradientView.m */; };
+		5CEF0AE71AE07075002A2A1B /* SearchResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF0AE61AE07075002A2A1B /* SearchResultCell.m */; };
+		76869E853BECD080300098E3 /* libPods-PriceForMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E538D854AEC19F299605125A /* libPods-PriceForMe.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +51,28 @@
 		5C0AC3811AAF6AF300B41B5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5C0AC3821AAF6AF300B41B5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5C0AC3851AAF6AF300B41B5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5C0AC3871AAF6AF300B41B5C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5C0AC3881AAF6AF300B41B5C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5C0AC3871AAF6AF300B41B5C /* SearchResultsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchResultsViewController.h; sourceTree = "<group>"; };
+		5C0AC3881AAF6AF300B41B5C /* SearchResultsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchResultsViewController.m; sourceTree = "<group>"; };
 		5C0AC38A1AAF6AF300B41B5C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5C0AC3901AAF6AF400B41B5C /* PriceForMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PriceForMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C0AC3911AAF6AF400B41B5C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5C0AC3991AAF6AF400B41B5C /* PriceForMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PriceForMeTests-Info.plist"; sourceTree = "<group>"; };
 		5C0AC39B1AAF6AF400B41B5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5C0AC39D1AAF6AF400B41B5C /* PriceForMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriceForMeTests.m; sourceTree = "<group>"; };
+		5C0AC3A71AAF6B7600B41B5C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		5C0AC3A91AAF7AF900B41B5C /* ListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListItem.h; sourceTree = "<group>"; };
+		5C0AC3AA1AAF7AF900B41B5C /* ListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListItem.m; sourceTree = "<group>"; };
+		5C0AC3AC1AAF7B6C00B41B5C /* ResultDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultDataController.h; sourceTree = "<group>"; };
+		5C0AC3AD1AAF7B6C00B41B5C /* ResultDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultDataController.m; sourceTree = "<group>"; };
+		5C3069C41AE099F200320249 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5C3069C51AE099F200320249 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		5C89206D1AE0D084009E5198 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		5C89206E1AE0D084009E5198 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		5CEF0AE51AE07075002A2A1B /* SearchResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultCell.h; sourceTree = "<group>"; };
+		5CEF0AE61AE07075002A2A1B /* SearchResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultCell.m; sourceTree = "<group>"; };
+		C24629F274574FDD38385E3B /* Pods-PriceForMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriceForMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PriceForMe/Pods-PriceForMe.debug.xcconfig"; sourceTree = "<group>"; };
+		E538D854AEC19F299605125A /* libPods-PriceForMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PriceForMe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4FFFF3306339385B07AD29 /* Pods-PriceForMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriceForMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-PriceForMe/Pods-PriceForMe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +83,7 @@
 				5C0AC3751AAF6AF300B41B5C /* CoreGraphics.framework in Frameworks */,
 				5C0AC3771AAF6AF300B41B5C /* UIKit.framework in Frameworks */,
 				5C0AC3731AAF6AF300B41B5C /* Foundation.framework in Frameworks */,
+				76869E853BECD080300098E3 /* libPods-PriceForMe.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,8 +107,11 @@
 				5C0AC3971AAF6AF400B41B5C /* PriceForMeTests */,
 				5C0AC3711AAF6AF300B41B5C /* Frameworks */,
 				5C0AC3701AAF6AF300B41B5C /* Products */,
+				9E7032E97A3B9E12C87DB3CD /* Pods */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		5C0AC3701AAF6AF300B41B5C /* Products */ = {
 			isa = PBXGroup;
@@ -105,6 +129,7 @@
 				5C0AC3741AAF6AF300B41B5C /* CoreGraphics.framework */,
 				5C0AC3761AAF6AF300B41B5C /* UIKit.framework */,
 				5C0AC3911AAF6AF400B41B5C /* XCTest.framework */,
+				E538D854AEC19F299605125A /* libPods-PriceForMe.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,10 +140,20 @@
 				5C0AC3811AAF6AF300B41B5C /* AppDelegate.h */,
 				5C0AC3821AAF6AF300B41B5C /* AppDelegate.m */,
 				5C0AC3841AAF6AF300B41B5C /* Main.storyboard */,
-				5C0AC3871AAF6AF300B41B5C /* ViewController.h */,
-				5C0AC3881AAF6AF300B41B5C /* ViewController.m */,
+				5C0AC3871AAF6AF300B41B5C /* SearchResultsViewController.h */,
+				5C0AC3881AAF6AF300B41B5C /* SearchResultsViewController.m */,
 				5C0AC38A1AAF6AF300B41B5C /* Images.xcassets */,
 				5C0AC3791AAF6AF300B41B5C /* Supporting Files */,
+				5C0AC3A91AAF7AF900B41B5C /* ListItem.h */,
+				5C0AC3AA1AAF7AF900B41B5C /* ListItem.m */,
+				5C0AC3AC1AAF7B6C00B41B5C /* ResultDataController.h */,
+				5C0AC3AD1AAF7B6C00B41B5C /* ResultDataController.m */,
+				5CEF0AE51AE07075002A2A1B /* SearchResultCell.h */,
+				5CEF0AE61AE07075002A2A1B /* SearchResultCell.m */,
+				5C3069C41AE099F200320249 /* DetailViewController.h */,
+				5C3069C51AE099F200320249 /* DetailViewController.m */,
+				5C89206D1AE0D084009E5198 /* GradientView.h */,
+				5C89206E1AE0D084009E5198 /* GradientView.m */,
 			);
 			path = PriceForMe;
 			sourceTree = "<group>";
@@ -152,6 +187,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9E7032E97A3B9E12C87DB3CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C24629F274574FDD38385E3B /* Pods-PriceForMe.debug.xcconfig */,
+				EE4FFFF3306339385B07AD29 /* Pods-PriceForMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C0AC3A11AAF6AF400B41B5C /* Build configuration list for PBXNativeTarget "PriceForMe" */;
 			buildPhases = (
+				4FE4370CB5B7AEA5D4781A08 /* Check Pods Manifest.lock */,
 				5C0AC36B1AAF6AF300B41B5C /* Sources */,
 				5C0AC36C1AAF6AF300B41B5C /* Frameworks */,
 				5C0AC36D1AAF6AF300B41B5C /* Resources */,
+				95BC218712F779703D4991A8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,14 +290,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4FE4370CB5B7AEA5D4781A08 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95BC218712F779703D4991A8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PriceForMe/Pods-PriceForMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5C0AC36B1AAF6AF300B41B5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C0AC3891AAF6AF300B41B5C /* ViewController.m in Sources */,
+				5CEF0AE71AE07075002A2A1B /* SearchResultCell.m in Sources */,
+				5C0AC3AB1AAF7AF900B41B5C /* ListItem.m in Sources */,
+				5C89206F1AE0D084009E5198 /* GradientView.m in Sources */,
+				5C0AC3AE1AAF7B6C00B41B5C /* ResultDataController.m in Sources */,
+				5C0AC3891AAF6AF300B41B5C /* SearchResultsViewController.m in Sources */,
 				5C0AC3831AAF6AF300B41B5C /* AppDelegate.m in Sources */,
 				5C0AC37F1AAF6AF300B41B5C /* main.m in Sources */,
+				5C3069C61AE099F200320249 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +370,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5C0AC3851AAF6AF300B41B5C /* Base */,
+				5C0AC3A71AAF6B7600B41B5C /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -373,6 +458,7 @@
 		};
 		5C0AC3A21AAF6AF400B41B5C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C24629F274574FDD38385E3B /* Pods-PriceForMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -386,6 +472,7 @@
 		};
 		5C0AC3A31AAF6AF400B41B5C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE4FFFF3306339385B07AD29 /* Pods-PriceForMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -456,6 +543,7 @@
 				5C0AC3A31AAF6AF400B41B5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C0AC3A41AAF6AF400B41B5C /* Build configuration list for PBXNativeTarget "PriceForMeTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +552,7 @@
 				5C0AC3A61AAF6AF400B41B5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
