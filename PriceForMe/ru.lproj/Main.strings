@@ -1,0 +1,36 @@
+
+/* Class = "IBUIButton"; normalTitle = "Get It Free"; ObjectID = "6uY-MV-VLO"; */
+"6uY-MV-VLO.normalTitle" = "Получить бесплатно";
+
+/* Class = "IBUILabel"; text = "Item Name"; ObjectID = "9Oo-tX-TBk"; */
+"9Oo-tX-TBk.text" = "Item Name";
+
+/* Class = "IBUILabel"; text = "Label dkkndk vnfdkvndjvn dngkjdnj jdnjdrgjsdn grjgkd"; ObjectID = "Dbh-K6-rKR"; */
+"Dbh-K6-rKR.text" = "Label dkkndk vnfdkvndjvn dngkjdnj jdnjdrgjsdn grjgkd";
+
+/* Class = "IBUILabel"; text = "No Results Were Found"; ObjectID = "Jil-eA-k1C"; */
+"Jil-eA-k1C.text" = "Результатов не найдено";
+
+/* Class = "IBUILabel"; text = "kedy-vans.com.ua"; ObjectID = "RGX-Td-pcf"; */
+"RGX-Td-pcf.text" = "kedy-vans.com.ua";
+
+/* Class = "IBUILabel"; text = "340.00 грн"; ObjectID = "RRy-re-xAz"; */
+"RRy-re-xAz.text" = "340.00 грн";
+
+/* Class = "IBUILabel"; text = "340.00 грн"; ObjectID = "X9i-Nh-W0f"; */
+"X9i-Nh-W0f.text" = "340.00 грн";
+
+/* Class = "IBUISearchBar"; placeholder = "So, what do you want to buy?"; ObjectID = "aYp-lm-MnI"; */
+"aYp-lm-MnI.placeholder" = "Итак, что вы хотите купить?";
+
+/* Class = "IBUISearchBar"; aYp-lm-MnI.scopeButtonTitles[0] = "Title"; ObjectID = "aYp-lm-MnI"; */
+"aYp-lm-MnI.scopeButtonTitles[0]" = "Title";
+
+/* Class = "IBUISearchBar"; aYp-lm-MnI.scopeButtonTitles[1] = "Title"; ObjectID = "aYp-lm-MnI"; */
+"aYp-lm-MnI.scopeButtonTitles[1]" = "Title";
+
+/* Class = "IBUILabel"; text = "kedy-vans.com.ua"; ObjectID = "jl5-p6-b01"; */
+"jl5-p6-b01.text" = "kedy-vans.com.ua";
+
+/* Class = "IBUIButton"; normalTitle = "Want Cheaper"; ObjectID = "k5y-j5-qEs"; */
+"k5y-j5-qEs.normalTitle" = "Хочу дешевле";

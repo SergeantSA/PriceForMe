@@ -59,7 +59,6 @@
 		5C0AC3991AAF6AF400B41B5C /* PriceForMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PriceForMeTests-Info.plist"; sourceTree = "<group>"; };
 		5C0AC39B1AAF6AF400B41B5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5C0AC39D1AAF6AF400B41B5C /* PriceForMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriceForMeTests.m; sourceTree = "<group>"; };
-		5C0AC3A71AAF6B7600B41B5C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		5C0AC3A91AAF7AF900B41B5C /* ListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListItem.h; sourceTree = "<group>"; };
 		5C0AC3AA1AAF7AF900B41B5C /* ListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListItem.m; sourceTree = "<group>"; };
 		5C0AC3AC1AAF7B6C00B41B5C /* ResultDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultDataController.h; sourceTree = "<group>"; };
@@ -68,6 +67,7 @@
 		5C3069C51AE099F200320249 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		5C89206D1AE0D084009E5198 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
 		5C89206E1AE0D084009E5198 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		5C8920731AE0EA71009E5198 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		5CEF0AE51AE07075002A2A1B /* SearchResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultCell.h; sourceTree = "<group>"; };
 		5CEF0AE61AE07075002A2A1B /* SearchResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultCell.m; sourceTree = "<group>"; };
 		C24629F274574FDD38385E3B /* Pods-PriceForMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriceForMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PriceForMe/Pods-PriceForMe.debug.xcconfig"; sourceTree = "<group>"; };
@@ -257,6 +257,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 5C0AC3661AAF6AF300B41B5C;
 			productRefGroup = 5C0AC3701AAF6AF300B41B5C /* Products */;
@@ -370,7 +371,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5C0AC3851AAF6AF300B41B5C /* Base */,
-				5C0AC3A71AAF6B7600B41B5C /* ru */,
+				5C8920731AE0EA71009E5198 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

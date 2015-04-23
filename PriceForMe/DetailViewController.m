@@ -17,6 +17,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *itemNameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *hostNameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *priceNameLabel;
+@property (weak, nonatomic) IBOutlet UIButton *wantCheaperButton;
+@property (weak, nonatomic) IBOutlet UIButton *getItFreeButton;
 @property (weak, nonatomic) IBOutlet UIImageView *itemImageView;
 
 @end
@@ -54,6 +56,17 @@
   if (self.item != nil) {
     [self updateUI];
   }
+  
+  self.wantCheaperButton.backgroundColor =
+          [UIColor colorWithRed:245/255.0f green:82/255.0f
+                                        blue:18/255.0f alpha:1.0f];
+  self.getItFreeButton.backgroundColor =
+          [UIColor colorWithRed:80/255.0f green:137/255.0f
+                                      blue:255/255.0f alpha:1.0f];
+  self.wantCheaperButton.tintColor = [UIColor whiteColor];
+  self.getItFreeButton.tintColor = [UIColor whiteColor];
+  self.wantCheaperButton.layer.cornerRadius = 8.0f;
+  self.getItFreeButton.layer.cornerRadius = 15.0f;
 }
 
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch
@@ -99,7 +112,7 @@
                    initWithFrame:parentViewController.view.bounds];
   [parentViewController.view addSubview:_gradientView];
   
-//  self.view.frame = parentViewController.view.bounds;
+  self.view.frame = parentViewController.view.bounds;
   [parentViewController.view addSubview:self.view];
   [parentViewController addChildViewController:self];
   
@@ -132,14 +145,20 @@
                              forKey:@"fadeAnimation"];
 }
 
-- (void)dismissFromParentViewController
+- (void)dismissFromParentViewController:
+                (DetailViewControllerAnimationType)animationType
 {
   [self willMoveToParentViewController:nil];
   
   [UIView animateWithDuration:0.3 animations:^{
-    CGRect rect = self.view.bounds;
-    rect.origin.y += rect.size.height;
-    self.view.frame = rect;
+    if (animationType ==
+        DetailViewControllerAnimationTypeSlide) {
+      CGRect rect = self.view.bounds;
+      rect.origin.y += rect.size.height;
+      self.view.frame = rect;
+    } else {
+      self.view.alpha = 0.0f;
+    }
     _gradientView.alpha = 0.0f;
     
   } completion:^(BOOL finished) {
@@ -156,7 +175,8 @@
 }
 
 - (IBAction)close:(id)sender {
-  [self dismissFromParentViewController];
+  [self dismissFromParentViewController:
+                        DetailViewControllerAnimationTypeSlide];
 }
 
 - (IBAction)goToSite:(id)sender

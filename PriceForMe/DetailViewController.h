@@ -10,12 +10,18 @@
 
 @class ListItem;
 
+typedef NS_ENUM(NSUInteger, DetailViewControllerAnimationType) {
+  DetailViewControllerAnimationTypeSlide,
+  DetailViewControllerAnimationTypeFade
+};
+
 @interface DetailViewController : UIViewController
 
 @property (nonatomic, strong) ListItem *item;
 
 - (void)presentInParentViewController:
                           (UIViewController *)parentViewController;
-- (void)dismissFromParentViewController;
+- (void)dismissFromParentViewController:
+                  (DetailViewControllerAnimationType)animationType;
 
 @end
