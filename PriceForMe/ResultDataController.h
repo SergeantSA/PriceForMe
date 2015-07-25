@@ -12,6 +12,9 @@
 
 @interface ResultDataController : NSObject
 
+@property(nonatomic, copy, readonly) NSString *textForSearch;
+
++ (ResultDataController *)sharedSearchResults;
 - (void)searchForText:(NSString *)text;
 - (NSInteger)resultsCount;
 - (ListItem *)resultAtIndex:(NSUInteger)index;

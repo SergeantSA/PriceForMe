@@ -24,8 +24,14 @@
 		5C0AC3AB1AAF7AF900B41B5C /* ListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0AC3AA1AAF7AF900B41B5C /* ListItem.m */; };
 		5C0AC3AE1AAF7B6C00B41B5C /* ResultDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0AC3AD1AAF7B6C00B41B5C /* ResultDataController.m */; };
 		5C3069C61AE099F200320249 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3069C51AE099F200320249 /* DetailViewController.m */; };
+		5C64D2201B0E6CF000238B26 /* ToLandscapeViewSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C64D21F1B0E6CF000238B26 /* ToLandscapeViewSegue.m */; };
+		5C64D2231B0E751700238B26 /* ToPortraitViewSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C64D2221B0E751700238B26 /* ToPortraitViewSegue.m */; };
 		5C89206F1AE0D084009E5198 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C89206E1AE0D084009E5198 /* GradientView.m */; };
+		5CE2C18C1B081CE4001AC024 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2C18B1B081CE4001AC024 /* UIImage+Resize.m */; };
+		5CE2C18E1B0841D0001AC024 /* LandscapeDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CE2C18D1B0841D0001AC024 /* LandscapeDataCell.xib */; };
+		5CE2C1911B0842E7001AC024 /* LandscapeDataCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2C1901B0842E7001AC024 /* LandscapeDataCell.m */; };
 		5CEF0AE71AE07075002A2A1B /* SearchResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF0AE61AE07075002A2A1B /* SearchResultCell.m */; };
+		5CFBA7661AE8BB70001E3A42 /* LandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFBA7651AE8BB70001E3A42 /* LandscapeViewController.m */; };
 		76869E853BECD080300098E3 /* libPods-PriceForMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E538D854AEC19F299605125A /* libPods-PriceForMe.a */; };
 /* End PBXBuildFile section */
 
@@ -65,11 +71,22 @@
 		5C0AC3AD1AAF7B6C00B41B5C /* ResultDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultDataController.m; sourceTree = "<group>"; };
 		5C3069C41AE099F200320249 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		5C3069C51AE099F200320249 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		5C64D21E1B0E6CF000238B26 /* ToLandscapeViewSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToLandscapeViewSegue.h; sourceTree = "<group>"; };
+		5C64D21F1B0E6CF000238B26 /* ToLandscapeViewSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToLandscapeViewSegue.m; sourceTree = "<group>"; };
+		5C64D2211B0E751700238B26 /* ToPortraitViewSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToPortraitViewSegue.h; sourceTree = "<group>"; };
+		5C64D2221B0E751700238B26 /* ToPortraitViewSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToPortraitViewSegue.m; sourceTree = "<group>"; };
 		5C89206D1AE0D084009E5198 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
 		5C89206E1AE0D084009E5198 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
 		5C8920731AE0EA71009E5198 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		5CE2C18A1B081CE4001AC024 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		5CE2C18B1B081CE4001AC024 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		5CE2C18D1B0841D0001AC024 /* LandscapeDataCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandscapeDataCell.xib; sourceTree = "<group>"; };
+		5CE2C18F1B0842E7001AC024 /* LandscapeDataCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LandscapeDataCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5CE2C1901B0842E7001AC024 /* LandscapeDataCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LandscapeDataCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		5CEF0AE51AE07075002A2A1B /* SearchResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultCell.h; sourceTree = "<group>"; };
 		5CEF0AE61AE07075002A2A1B /* SearchResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultCell.m; sourceTree = "<group>"; };
+		5CFBA7641AE8BB70001E3A42 /* LandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandscapeViewController.h; sourceTree = "<group>"; };
+		5CFBA7651AE8BB70001E3A42 /* LandscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LandscapeViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		C24629F274574FDD38385E3B /* Pods-PriceForMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriceForMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PriceForMe/Pods-PriceForMe.debug.xcconfig"; sourceTree = "<group>"; };
 		E538D854AEC19F299605125A /* libPods-PriceForMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PriceForMe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE4FFFF3306339385B07AD29 /* Pods-PriceForMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriceForMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-PriceForMe/Pods-PriceForMe.release.xcconfig"; sourceTree = "<group>"; };
@@ -154,6 +171,17 @@
 				5C3069C51AE099F200320249 /* DetailViewController.m */,
 				5C89206D1AE0D084009E5198 /* GradientView.h */,
 				5C89206E1AE0D084009E5198 /* GradientView.m */,
+				5CFBA7641AE8BB70001E3A42 /* LandscapeViewController.h */,
+				5CFBA7651AE8BB70001E3A42 /* LandscapeViewController.m */,
+				5CE2C18A1B081CE4001AC024 /* UIImage+Resize.h */,
+				5CE2C18B1B081CE4001AC024 /* UIImage+Resize.m */,
+				5CE2C18D1B0841D0001AC024 /* LandscapeDataCell.xib */,
+				5CE2C18F1B0842E7001AC024 /* LandscapeDataCell.h */,
+				5CE2C1901B0842E7001AC024 /* LandscapeDataCell.m */,
+				5C64D21E1B0E6CF000238B26 /* ToLandscapeViewSegue.h */,
+				5C64D21F1B0E6CF000238B26 /* ToLandscapeViewSegue.m */,
+				5C64D2211B0E751700238B26 /* ToPortraitViewSegue.h */,
+				5C64D2221B0E751700238B26 /* ToPortraitViewSegue.m */,
 			);
 			path = PriceForMe;
 			sourceTree = "<group>";
@@ -278,6 +306,7 @@
 				5C0AC38B1AAF6AF300B41B5C /* Images.xcassets in Resources */,
 				5C0AC37D1AAF6AF300B41B5C /* InfoPlist.strings in Resources */,
 				5C0AC3861AAF6AF300B41B5C /* Main.storyboard in Resources */,
+				5CE2C18E1B0841D0001AC024 /* LandscapeDataCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,13 +359,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CEF0AE71AE07075002A2A1B /* SearchResultCell.m in Sources */,
+				5CE2C1911B0842E7001AC024 /* LandscapeDataCell.m in Sources */,
 				5C0AC3AB1AAF7AF900B41B5C /* ListItem.m in Sources */,
+				5C64D2201B0E6CF000238B26 /* ToLandscapeViewSegue.m in Sources */,
 				5C89206F1AE0D084009E5198 /* GradientView.m in Sources */,
 				5C0AC3AE1AAF7B6C00B41B5C /* ResultDataController.m in Sources */,
+				5C64D2231B0E751700238B26 /* ToPortraitViewSegue.m in Sources */,
+				5CFBA7661AE8BB70001E3A42 /* LandscapeViewController.m in Sources */,
 				5C0AC3891AAF6AF300B41B5C /* SearchResultsViewController.m in Sources */,
 				5C0AC3831AAF6AF300B41B5C /* AppDelegate.m in Sources */,
 				5C0AC37F1AAF6AF300B41B5C /* main.m in Sources */,
 				5C3069C61AE099F200320249 /* DetailViewController.m in Sources */,
+				5CE2C18C1B081CE4001AC024 /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

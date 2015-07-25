@@ -1,8 +1,8 @@
 //
-//  SearchResultCell.h
+//  LandscapeDataCell.h
 //  PriceForMe
 //
-//  Created by SergeantSA on 4/16/15.
+//  Created by SergeantSA on 5/17/15.
 //  Copyright (c) 2015 PriceForMe. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 @class ListItem;
 
-@interface SearchResultCell : UITableViewCell
+@interface LandscapeDataCell : UICollectionViewCell
 
 - (void)configureForListItem:(ListItem *)item;
 
